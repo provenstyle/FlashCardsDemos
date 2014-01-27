@@ -223,7 +223,6 @@
     <Content Include="Views\Home\_splash.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\cards\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
