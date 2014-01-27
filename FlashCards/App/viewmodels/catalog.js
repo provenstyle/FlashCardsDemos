@@ -10,8 +10,8 @@
          });
    };
 
-   vm.goToCards = function(name) {
-      router.navigate('#cards/' + encodeURIComponent(name));
+   vm.goToCards = function() {
+      
    };
 
    return vm;
