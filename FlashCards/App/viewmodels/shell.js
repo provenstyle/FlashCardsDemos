@@ -2,8 +2,7 @@
    return {
       router: router,
       activate: function() {
-         router.map([            
-            { route: ['', 'about'], title: 'About', moduleId: 'viewmodels/about', nav: true }
+         router.map([
          ]).buildNavigationModel();
 
          router.mapUnknownRoutes('viewmodels/catalog', "#catalog");
