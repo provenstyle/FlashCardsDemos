@@ -4,7 +4,6 @@
    };
    
    vm.activate = function (name, index) {
-      
       vm.indexParam = index ? index : 0;
    };
    
