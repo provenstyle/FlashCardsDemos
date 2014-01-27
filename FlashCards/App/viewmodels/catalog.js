@@ -1,4 +1,4 @@
-﻿define(['services/flashCardService', 'plugins/router'], function(service, router) {
+﻿define(['services/flashCardService'], function(service) {
 
    var vm = {};
    vm.catalogNames = [];
@@ -8,10 +8,6 @@
          .done(function(data) {
             vm.catalogNames = data;
          });
-   };
-
-   vm.goToCards = function() {
-      
    };
 
    return vm;
