@@ -5,7 +5,6 @@
          router.map([
          ]).buildNavigationModel();
 
-         router.mapUnknownRoutes('viewmodels/catalog', "#catalog");
 
          return router.activate();
       },
