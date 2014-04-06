@@ -6,8 +6,6 @@
             { route: ['', 'about'], title: 'About', moduleId: 'viewmodels/about', nav: true }
          ]).buildNavigationModel();
 
-         router.mapUnknownRoutes('viewmodels/catalog', "#catalog");
-
          return router.activate();
       },
    };
