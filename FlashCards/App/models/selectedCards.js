@@ -8,11 +8,6 @@
       random: false
    };
 
-   app.on('randomChanged').then(function (data) {
-      system.log('Random changed: ' + data);
-      module.random = data;
-   });
-
    module.select = function(name) {
       return service.getCards(name)
          .done(function (data) {

@@ -11,11 +11,6 @@
          router.mapUnknownRoutes('viewmodels/catalog', "#catalog");
 
          return router.activate();
-      },
-      randomChecked: false,
-      randomChanged: function() {
-         app.trigger('randomChanged', this.randomChecked);
-         return true;
       }
    };
 });

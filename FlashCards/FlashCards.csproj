@@ -151,6 +151,7 @@
     <Content Include="App\views\about.html" />
     <Content Include="App\views\cards.html" />
     <Content Include="App\views\catalog.html" />
+    <Content Include="App\views\navBar.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
