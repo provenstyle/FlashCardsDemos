@@ -22,24 +22,6 @@
       return selectedCards.select(nameParam);
    };
 
-   vm.previous = function () {
-      if (selectedCards.hasPrevious) {
-         navigate(selectedCards.previousIndex());
-      }
-   };
-
-   vm.next = function() {
-      if (selectedCards.hasNext) {
-         navigate(selectedCards.nextIndex());
-      }
-   };
-
-   function navigate(index) {
-      var url = '#cards/' + encodeURIComponent(selectedCards.name) + '/id/' + index;
-      system.log(url);
-      router.navigate(url);
-   }
-
    return vm;
 
 });
